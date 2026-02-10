@@ -1,0 +1,5 @@
+# Story Format
+.storyformats/
+
+# Build Result
+dist/story.html

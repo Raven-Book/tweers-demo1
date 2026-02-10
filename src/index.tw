@@ -1,0 +1,37 @@
+:: StoryTitle
+我的故事
+
+:: StoryData
+{
+  "ifid": "716A81E5-3AE4-44E9-85DD-0DEFCBC4DDC5",
+  "format": "SugarCube",
+  "format-version": "2.37.3"
+}
+
+:: Start
+你站在一间昏暗的房间里，四周弥漫着灰尘的气味。
+
+房间中央有一张桌子，上面放着一封信和一把钥匙。
+
+[[拿起信|Letter]]
+[[拿起钥匙|Key]]
+
+:: Letter
+你展开信纸，上面写着：
+
+<blockquote>"钥匙会带你找到答案。"</blockquote>
+
+[[放下信，回到桌前|Start]]
+
+:: Key
+你拿起钥匙，发现房间角落有一扇上锁的门。
+
+[[用钥匙开门|Ending]]
+[[放下钥匙|Start]]
+
+:: Ending
+门缓缓打开，阳光涌入房间。
+
+你走了出去，迎接崭新的世界。
+
+''— 完 —''
